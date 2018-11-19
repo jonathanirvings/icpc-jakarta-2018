@@ -24,7 +24,7 @@ In the problem folder, there should be at least the following file/folder:
 - `solution.cpp`. The official solution used to generate the outputs of the testcases
 - `alt-solution.cpp`. The second solution used to verify the outputs of the testcases
 - `verifier.cpp`. A verifier used to validate the input of the testcases. The code will crash if the input violates the problem constraint, while it will exit gracefully and will not output anything if the input satisfies the problem constraint.
-- `tc/`. A folder consisting of all testcases. The sample inputs given in the problem statement will be in the form of `<slug>_sample_<testcase number>.in/out`, while the hidden testcases will be in the form of `<slug>_<testcase number>.in/out`.
+- `tc/`. A folder consisting of all testcases. The sample inputs given in the problem statement will be in the form of `<slug>_sample_<testcase number>.in/out`, while the hidden testcases will be in the form of `<slug>_1_<testcase number>.in/out`.
 - `p-<slug>.pdf`. The problem statement distributed to the contestants during the contest.
 
 For the problem with multiple correct outputs for each input, there should be one more file in the problem folder:

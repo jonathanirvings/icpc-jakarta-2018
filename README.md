@@ -68,9 +68,9 @@ Note that while there are only two official published solutions, we have a lot o
 
 ## Errata
 
-Note that the following announcement was broadcasted to all teams during the contest:
+### Problem D: Icy Land
 
-- Problem D: Icy Land
+Note that the following announcement was broadcasted to all teams during the contest:
   
 ```	
 Correction:
@@ -87,3 +87,9 @@ re-download them. Sorry for the inconvenience.
 ```
 
 The soft copy of the problem statement provided in this repository is the one  distributed after the fix was made.
+
+### Problem C: Smart Thief
+
+On 23 June 2020, the scorer for this problem was found to have non-deterministic behaviour due to insufficient array size. Fortunately, the false checking caused by the bug occurs rarely enough that the live contest was not impacted (at least we did not receive complaints on the live contest).
+
+The scorer provided in this repository is the one after the fix was made. The old scorer has `vector<long long> power(N, 1);` instead of `vector<long long> power(H, 1);` in line 24.

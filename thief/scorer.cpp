@@ -21,7 +21,7 @@ bool check_string(int N, const string &S) {
   const int H = MOD.size();
   assert(BASE.size() == H);
 
-  vector<long long> power(N, 1);
+  vector<long long> power(H, 1);
   for (int i = 0; i < H; ++i) {
     for (int j = 1; j < N; ++j) {
       power[i] = (power[i] * BASE[i]) % MOD[i];

@@ -1,4 +1,4 @@
-# 2018 ICPC Asia Jakarta Regional Contest - Prolem Repository
+# 2018 ICPC Asia Jakarta Regional Contest - Problem Repository
 
 ## Repository Structure
 
